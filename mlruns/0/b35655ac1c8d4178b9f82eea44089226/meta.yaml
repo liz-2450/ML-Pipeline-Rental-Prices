@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b35655ac1c8d4178b9f82eea44089226/artifacts
+end_time: 1719536716774
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b35655ac1c8d4178b9f82eea44089226
+run_name: overjoyed-duck-103
+run_uuid: b35655ac1c8d4178b9f82eea44089226
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719536701317
+status: 3
+tags: []
+user_id: lstew42

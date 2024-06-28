@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/82500dd34db44e37af6199e437a4a6f7/artifacts
+end_time: 1719536755645
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 82500dd34db44e37af6199e437a4a6f7
+run_name: caring-dove-9
+run_uuid: 82500dd34db44e37af6199e437a4a6f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719536716785
+status: 3
+tags: []
+user_id: lstew42

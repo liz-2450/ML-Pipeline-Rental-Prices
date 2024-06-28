@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5c878822ff61464db81109cfce7665c3/artifacts
+end_time: 1719536791311
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5c878822ff61464db81109cfce7665c3
+run_name: receptive-yak-301
+run_uuid: 5c878822ff61464db81109cfce7665c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719536755655
+status: 4
+tags: []
+user_id: lstew42

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7a58da1e67724254bfe782699538a4f2/artifacts
+end_time: 1719536791518
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7a58da1e67724254bfe782699538a4f2
+run_name: thoughtful-snail-854
+run_uuid: 7a58da1e67724254bfe782699538a4f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719536696092
+status: 4
+tags: []
+user_id: lstew42
