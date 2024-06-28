@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/63c44573a02740d9a2807f578ab8bc24/artifacts
+end_time: 1719450656066
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 63c44573a02740d9a2807f578ab8bc24
+run_name: illustrious-kite-169
+run_uuid: 63c44573a02740d9a2807f578ab8bc24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719450581899
+status: 3
+tags: []
+user_id: lstew42

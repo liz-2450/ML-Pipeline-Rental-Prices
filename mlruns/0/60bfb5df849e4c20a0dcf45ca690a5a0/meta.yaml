@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/60bfb5df849e4c20a0dcf45ca690a5a0/artifacts
+end_time: 1719446264553
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 60bfb5df849e4c20a0dcf45ca690a5a0
+run_name: amazing-cod-530
+run_uuid: 60bfb5df849e4c20a0dcf45ca690a5a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719446228671
+status: 3
+tags: []
+user_id: lstew42

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e4c53838f26043eaad0aa6650f880fa8/artifacts
+end_time: 1719453659606
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e4c53838f26043eaad0aa6650f880fa8
+run_name: grandiose-fox-319
+run_uuid: e4c53838f26043eaad0aa6650f880fa8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719453613107
+status: 3
+tags: []
+user_id: lstew42

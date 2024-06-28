@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6b338882e3eb41518a2fb3cbc23b413a/artifacts
+end_time: 1719455242851
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6b338882e3eb41518a2fb3cbc23b413a
+run_name: agreeable-mare-740
+run_uuid: 6b338882e3eb41518a2fb3cbc23b413a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719455240332
+status: 4
+tags: []
+user_id: lstew42

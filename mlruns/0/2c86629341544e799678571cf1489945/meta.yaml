@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2c86629341544e799678571cf1489945/artifacts
+end_time: 1719445346843
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c86629341544e799678571cf1489945
+run_name: rogue-fowl-271
+run_uuid: 2c86629341544e799678571cf1489945
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719445305555
+status: 3
+tags: []
+user_id: lstew42

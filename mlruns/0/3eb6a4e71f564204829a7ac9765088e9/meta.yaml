@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3eb6a4e71f564204829a7ac9765088e9/artifacts
+end_time: 1719454621978
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3eb6a4e71f564204829a7ac9765088e9
+run_name: righteous-hen-966
+run_uuid: 3eb6a4e71f564204829a7ac9765088e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719454619471
+status: 4
+tags: []
+user_id: lstew42

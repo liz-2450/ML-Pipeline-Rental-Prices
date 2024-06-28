@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/975256f38fc84be2a59878a09c8b8115/artifacts
+end_time: 1719454793865
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 975256f38fc84be2a59878a09c8b8115
+run_name: polite-fowl-192
+run_uuid: 975256f38fc84be2a59878a09c8b8115
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719454791409
+status: 4
+tags: []
+user_id: lstew42

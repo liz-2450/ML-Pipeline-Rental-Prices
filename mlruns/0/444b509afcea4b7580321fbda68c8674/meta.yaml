@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/444b509afcea4b7580321fbda68c8674/artifacts
+end_time: 1719175202146
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 444b509afcea4b7580321fbda68c8674
+run_name: sedate-grouse-698
+run_uuid: 444b509afcea4b7580321fbda68c8674
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719175125729
+status: 3
+tags: []
+user_id: lstew42

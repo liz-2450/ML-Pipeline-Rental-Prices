@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/80755704c1ca400c89dbdbc535e4cfaa/artifacts
+end_time: 1719453659739
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 80755704c1ca400c89dbdbc535e4cfaa
+run_name: bemused-bear-453
+run_uuid: 80755704c1ca400c89dbdbc535e4cfaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719453451226
+status: 3
+tags: []
+user_id: lstew42

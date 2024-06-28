@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/16469697ad5a434bb63d61045dac488a/artifacts
+end_time: 1719452847777
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 16469697ad5a434bb63d61045dac488a
+run_name: nosy-koi-703
+run_uuid: 16469697ad5a434bb63d61045dac488a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719452779050
+status: 4
+tags: []
+user_id: lstew42

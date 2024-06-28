@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7581a5c511ef40e98ff91d60876f9597/artifacts
+end_time: 1719175202375
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7581a5c511ef40e98ff91d60876f9597
+run_name: magnificent-kit-673
+run_uuid: 7581a5c511ef40e98ff91d60876f9597
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719175121810
+status: 3
+tags: []
+user_id: lstew42

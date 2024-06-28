@@ -1,0 +1,562 @@
+2024-06-26 17:15:54,682 INFO    StreamThr :8142 [internal.py:wandb_internal():87] W&B internal server running at pid: 8142, started at: 2024-06-26 17:15:54.682283
+2024-06-26 17:15:54,685 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status
+2024-06-26 17:15:54,685 INFO    WriterThread:8142 [datastore.py:open_for_write():85] open: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/run-cb2byn4m.wandb
+2024-06-26 17:15:54,686 DEBUG   SenderThread:8142 [sender.py:send():334] send: header
+2024-06-26 17:15:54,722 DEBUG   SenderThread:8142 [sender.py:send():334] send: run
+2024-06-26 17:15:55,187 INFO    SenderThread:8142 [dir_watcher.py:__init__():216] watching files in: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files
+2024-06-26 17:15:55,188 INFO    SenderThread:8142 [sender.py:_start_run_threads():1065] run started: cb2byn4m with start time 1719443754.683889
+2024-06-26 17:15:55,188 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: summary_record
+2024-06-26 17:15:55,188 INFO    SenderThread:8142 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-06-26 17:15:55,189 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: check_version
+2024-06-26 17:15:55,189 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: check_version
+2024-06-26 17:15:55,497 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: run_start
+2024-06-26 17:15:55,525 DEBUG   HandlerThread:8142 [system_info.py:__init__():31] System info init
+2024-06-26 17:15:55,525 DEBUG   HandlerThread:8142 [system_info.py:__init__():46] System info init done
+2024-06-26 17:15:55,525 INFO    HandlerThread:8142 [system_monitor.py:start():151] Starting system monitor
+2024-06-26 17:15:55,525 INFO    SystemMonitor:8142 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-06-26 17:15:55,526 INFO    HandlerThread:8142 [system_monitor.py:probe():172] Collecting system info
+2024-06-26 17:15:55,526 INFO    SystemMonitor:8142 [interfaces.py:start():168] Started cpu
+2024-06-26 17:15:55,528 INFO    SystemMonitor:8142 [interfaces.py:start():168] Started disk
+2024-06-26 17:15:55,528 INFO    SystemMonitor:8142 [interfaces.py:start():168] Started gpu
+2024-06-26 17:15:55,529 INFO    SystemMonitor:8142 [interfaces.py:start():168] Started memory
+2024-06-26 17:15:55,529 INFO    SystemMonitor:8142 [interfaces.py:start():168] Started network
+2024-06-26 17:15:55,540 DEBUG   HandlerThread:8142 [system_info.py:probe():195] Probing system
+2024-06-26 17:15:55,550 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:15:55,558 DEBUG   HandlerThread:8142 [system_info.py:_probe_git():180] Probing git
+2024-06-26 17:15:55,565 DEBUG   HandlerThread:8142 [system_info.py:_probe_git():188] Probing git done
+2024-06-26 17:15:55,565 DEBUG   HandlerThread:8142 [system_info.py:probe():241] Probing system done
+2024-06-26 17:15:55,565 DEBUG   HandlerThread:8142 [system_monitor.py:probe():181] {'os': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.15', 'heartbeatAt': '2024-06-26T23:15:55.540424', 'startedAt': '2024-06-26T23:15:54.675668', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'src/eda/eda.ipynb', 'root': '/home/lstew42/Project-Build-an-ML-Pipeline-Starter', 'git': {'remote': 'http://github.com/liz-2450/Project-Build-an-ML-Pipeline-Starter', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': None, 'host': 'LizStewart', 'username': 'lstew42', 'executable': '/home/lstew42/miniconda3/envs/nyc_airbnb_dev/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2304.0, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}, {'current': 2304.0, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 15.240848541259766}, 'gpu': 'NVIDIA GeForce RTX 3070 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Laptop GPU', 'memory_total': 8589934592}], 'memory': {'total': 7.625335693359375}}
+2024-06-26 17:15:55,565 INFO    HandlerThread:8142 [system_monitor.py:probe():182] Finished collecting system info
+2024-06-26 17:15:55,565 INFO    HandlerThread:8142 [system_monitor.py:probe():185] Publishing system info
+2024-06-26 17:15:55,565 DEBUG   HandlerThread:8142 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-06-26 17:15:55,566 DEBUG   HandlerThread:8142 [system_info.py:_save_pip():67] Saving pip packages done
+2024-06-26 17:15:55,566 DEBUG   HandlerThread:8142 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-06-26 17:15:56,188 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_created():275] file/dir created: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/wandb-summary.json
+2024-06-26 17:15:56,188 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_created():275] file/dir created: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/requirements.txt
+2024-06-26 17:15:56,189 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_created():275] file/dir created: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/conda-environment.yaml
+2024-06-26 17:15:57,536 DEBUG   HandlerThread:8142 [system_info.py:_save_conda():86] Saving conda packages done
+2024-06-26 17:15:57,536 DEBUG   HandlerThread:8142 [system_info.py:_save_code():89] Saving code
+2024-06-26 17:15:57,536 WARNING HandlerThread:8142 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2024-06-26 17:15:57,536 DEBUG   HandlerThread:8142 [system_info.py:_save_patches():127] Saving git patches
+2024-06-26 17:15:57,558 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:15:57,629 DEBUG   HandlerThread:8142 [system_info.py:_save_patches():169] Saving git patches done
+2024-06-26 17:15:57,629 INFO    HandlerThread:8142 [system_monitor.py:probe():187] Finished publishing system info
+2024-06-26 17:15:57,632 DEBUG   SenderThread:8142 [sender.py:send():334] send: files
+2024-06-26 17:15:57,633 INFO    SenderThread:8142 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-06-26 17:15:57,633 INFO    SenderThread:8142 [sender.py:_save_file():1319] saving file diff.patch with policy now
+2024-06-26 17:15:57,646 DEBUG   SenderThread:8142 [sender.py:send():334] send: telemetry
+2024-06-26 17:15:57,647 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-26 17:15:57,647 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: stop_status
+2024-06-26 17:15:58,189 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/conda-environment.yaml
+2024-06-26 17:15:58,189 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_created():275] file/dir created: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/diff.patch
+2024-06-26 17:15:58,189 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_created():275] file/dir created: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/wandb-metadata.json
+2024-06-26 17:15:58,211 INFO    Thread-15 :8142 [upload_job.py:push():143] Uploaded file /tmp/tmpzolu_wh6wandb/bwmauein-wandb-metadata.json
+2024-06-26 17:15:58,289 INFO    Thread-16 :8142 [upload_job.py:push():143] Uploaded file /tmp/tmpzolu_wh6wandb/fskumdgs-diff.patch
+2024-06-26 17:15:58,290 DEBUG   SenderThread:8142 [sender.py:send():334] send: use_artifact
+2024-06-26 17:15:59,189 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_created():275] file/dir created: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/output.log
+2024-06-26 17:15:59,567 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:15:59,857 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:16:01,191 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/output.log
+2024-06-26 17:16:01,577 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:03,585 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:04,859 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:16:05,599 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:07,610 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:09,624 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:09,861 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:16:11,637 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:12,646 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:16:13,650 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:14,863 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:16:15,664 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:17,648 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:16:17,676 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:19,691 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:19,866 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:16:21,704 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:22,650 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:16:23,711 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:24,870 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:16:25,735 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:26,207 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/config.yaml
+2024-06-26 17:16:27,652 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:16:27,743 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:29,758 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:30,486 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:16:31,778 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:32,654 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:16:33,789 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:35,488 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:16:35,802 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:37,656 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:16:37,817 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:39,830 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:40,490 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:16:41,843 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:42,658 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:16:43,853 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:45,492 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:16:45,862 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:47,661 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:16:47,877 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:49,891 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:50,494 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:16:51,897 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:52,662 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:16:53,905 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:55,496 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:16:55,529 DEBUG   SystemMonitor:8142 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-06-26 17:16:55,531 DEBUG   SenderThread:8142 [sender.py:send():334] send: stats
+2024-06-26 17:16:55,921 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:57,664 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:16:57,933 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:16:59,942 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:00,532 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:17:01,949 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:02,665 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:17:03,958 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:05,534 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:17:05,967 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:07,667 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:17:07,978 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:09,992 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:10,535 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:17:12,006 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:12,670 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:17:14,015 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:15,538 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:17:16,027 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:17,673 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:17:18,040 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:20,054 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:20,540 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:17:22,066 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:22,675 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:17:24,078 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:25,533 DEBUG   SenderThread:8142 [sender.py:send():334] send: stats
+2024-06-26 17:17:26,100 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:26,534 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:17:27,677 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:17:28,116 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:30,124 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:31,536 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:17:32,134 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:32,678 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:17:34,144 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:36,160 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:36,538 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:17:37,681 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:17:38,169 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:40,178 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:41,539 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:17:42,189 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:42,682 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:17:44,199 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:46,214 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:46,541 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:17:47,683 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:17:48,224 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:50,231 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:51,542 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:17:52,240 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:52,685 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:17:54,250 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:55,533 DEBUG   SenderThread:8142 [sender.py:send():334] send: stats
+2024-06-26 17:17:56,273 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:17:57,534 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:17:57,688 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:17:58,287 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:00,295 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:02,307 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:02,536 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:18:02,690 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:18:04,321 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:06,341 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:07,539 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:18:07,692 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:18:08,355 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:10,371 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:12,382 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:12,540 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:18:12,694 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:18:14,395 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:16,405 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:17,542 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:18:17,695 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:18:18,415 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:20,422 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:22,437 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:22,543 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:18:22,698 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:18:24,446 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:25,535 DEBUG   SenderThread:8142 [sender.py:send():334] send: stats
+2024-06-26 17:18:26,456 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:27,698 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:18:28,465 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:28,536 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:18:30,472 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:32,483 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:32,700 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:18:33,538 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:18:34,497 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:36,511 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:37,702 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:18:38,521 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:38,540 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:18:40,529 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:42,548 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:42,704 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:18:43,542 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:18:44,560 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:46,570 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:47,706 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:18:48,544 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:18:48,586 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:50,600 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:52,609 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:52,708 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:18:53,546 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:18:54,619 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:55,535 DEBUG   SenderThread:8142 [sender.py:send():334] send: stats
+2024-06-26 17:18:56,642 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:57,710 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:18:58,653 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:18:59,537 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:19:00,669 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:02,684 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:02,712 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:19:04,538 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:19:04,693 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:06,699 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:07,714 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:19:08,712 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:09,540 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:19:10,726 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:12,716 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:19:12,740 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:14,542 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:19:14,749 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:16,762 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:17,718 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:19:18,775 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:19,543 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:19:20,782 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:22,718 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:19:22,791 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:24,545 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:19:24,812 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:25,536 DEBUG   SenderThread:8142 [sender.py:send():334] send: stats
+2024-06-26 17:19:26,823 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:27,720 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:19:28,838 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:30,537 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:19:30,851 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:32,723 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:19:32,865 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:34,873 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:35,539 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:19:36,882 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:37,724 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:19:38,897 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:40,540 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:19:40,909 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:42,727 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:19:42,919 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:44,929 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:45,543 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:19:46,941 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:47,728 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:19:48,950 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:50,544 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:19:50,963 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:52,729 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:19:52,977 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:54,985 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:55,536 DEBUG   SenderThread:8142 [sender.py:send():334] send: stats
+2024-06-26 17:19:56,537 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:19:57,001 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:19:57,730 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:19:59,012 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:01,022 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:01,538 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:20:02,731 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:20:03,032 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:05,044 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:06,540 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:20:07,057 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:07,734 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:20:09,073 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:11,082 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:11,542 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:20:12,736 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:20:13,097 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:15,111 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:16,544 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:20:17,124 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:17,737 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:20:19,131 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:21,145 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:21,546 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:20:22,739 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:20:23,156 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:25,170 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:25,538 DEBUG   SenderThread:8142 [sender.py:send():334] send: stats
+2024-06-26 17:20:27,191 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:27,540 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:20:27,742 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:20:29,205 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:31,214 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:32,542 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:20:32,743 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:20:33,228 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:35,241 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:37,249 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:37,544 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:20:37,744 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:20:39,261 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:41,274 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:42,545 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:20:42,745 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:20:43,283 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:45,296 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:47,304 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:47,546 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:20:47,747 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:20:49,311 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:51,322 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:52,548 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:20:52,748 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:20:53,330 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:55,344 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:55,540 DEBUG   SenderThread:8142 [sender.py:send():334] send: stats
+2024-06-26 17:20:57,356 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:20:57,750 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:20:58,541 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:20:59,365 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:01,374 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:02,752 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:21:03,386 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:03,543 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:21:05,395 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:07,405 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:07,753 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:21:08,544 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:21:09,415 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:11,425 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:12,754 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:21:13,435 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:13,545 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:21:15,449 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:17,465 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:17,757 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:21:18,548 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:21:19,480 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:21,493 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:22,759 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:21:23,507 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:23,551 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:21:25,522 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:25,541 DEBUG   SenderThread:8142 [sender.py:send():334] send: stats
+2024-06-26 17:21:27,544 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:27,762 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:21:29,543 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:21:29,552 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:31,559 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:32,763 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:21:33,574 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:34,545 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:21:35,585 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:37,599 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:37,765 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:21:39,547 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:21:39,613 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:41,628 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:42,767 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:21:43,639 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:44,549 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:21:45,648 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:47,662 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:47,769 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:21:49,552 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:21:49,672 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:51,686 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:52,771 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:21:53,698 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:54,553 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:21:55,542 DEBUG   SenderThread:8142 [sender.py:send():334] send: stats
+2024-06-26 17:21:55,705 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:57,729 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:21:57,772 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:21:59,744 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:00,544 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:22:01,758 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:02,774 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:22:03,772 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:05,547 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:22:05,780 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:07,777 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:22:07,793 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:09,808 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:10,549 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:22:11,819 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:12,779 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:22:13,834 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:15,551 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:22:15,849 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:17,781 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:22:17,860 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:19,874 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:20,553 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:22:21,890 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:22,784 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:22:23,904 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:25,544 DEBUG   SenderThread:8142 [sender.py:send():334] send: stats
+2024-06-26 17:22:25,919 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:26,545 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:22:27,786 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:22:27,932 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:29,941 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:31,547 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:22:31,955 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:32,788 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:22:33,962 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:35,971 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:36,549 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:22:37,789 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-26 17:22:37,988 ERROR   gpu       :8142 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-06-26 17:22:39,428 DEBUG   SenderThread:8142 [sender.py:send():334] send: telemetry
+2024-06-26 17:22:39,455 DEBUG   SenderThread:8142 [sender.py:send():334] send: config
+2024-06-26 17:22:39,457 DEBUG   SenderThread:8142 [sender.py:send():334] send: exit
+2024-06-26 17:22:39,457 INFO    SenderThread:8142 [sender.py:send_exit():557] handling exit code: 0
+2024-06-26 17:22:39,457 INFO    SenderThread:8142 [sender.py:send_exit():559] handling runtime: 403
+2024-06-26 17:22:39,458 INFO    SenderThread:8142 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-06-26 17:22:39,458 INFO    SenderThread:8142 [sender.py:send_exit():565] send defer
+2024-06-26 17:22:39,458 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:39,458 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 0
+2024-06-26 17:22:39,458 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:39,458 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-06-26 17:22:39,458 INFO    SenderThread:8142 [sender.py:transition_state():585] send defer: 1
+2024-06-26 17:22:39,459 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:39,459 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 1
+2024-06-26 17:22:39,459 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:39,459 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-06-26 17:22:39,459 INFO    SenderThread:8142 [sender.py:transition_state():585] send defer: 2
+2024-06-26 17:22:39,459 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:39,459 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 2
+2024-06-26 17:22:39,459 INFO    HandlerThread:8142 [system_monitor.py:finish():161] Stopping system monitor
+2024-06-26 17:22:39,460 DEBUG   SystemMonitor:8142 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-06-26 17:22:39,460 DEBUG   SystemMonitor:8142 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-06-26 17:22:39,461 INFO    HandlerThread:8142 [interfaces.py:finish():175] Joined cpu
+2024-06-26 17:22:39,461 INFO    HandlerThread:8142 [interfaces.py:finish():175] Joined disk
+2024-06-26 17:22:39,465 INFO    HandlerThread:8142 [interfaces.py:finish():175] Joined gpu
+2024-06-26 17:22:39,465 INFO    HandlerThread:8142 [interfaces.py:finish():175] Joined memory
+2024-06-26 17:22:39,465 INFO    HandlerThread:8142 [interfaces.py:finish():175] Joined network
+2024-06-26 17:22:39,466 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:39,466 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-06-26 17:22:39,466 INFO    SenderThread:8142 [sender.py:transition_state():585] send defer: 3
+2024-06-26 17:22:39,466 DEBUG   SenderThread:8142 [sender.py:send():334] send: stats
+2024-06-26 17:22:39,466 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:39,466 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 3
+2024-06-26 17:22:39,466 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:39,466 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-06-26 17:22:39,466 INFO    SenderThread:8142 [sender.py:transition_state():585] send defer: 4
+2024-06-26 17:22:39,466 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:39,466 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 4
+2024-06-26 17:22:39,467 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:39,467 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-06-26 17:22:39,467 INFO    SenderThread:8142 [sender.py:transition_state():585] send defer: 5
+2024-06-26 17:22:39,467 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:39,467 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 5
+2024-06-26 17:22:39,467 DEBUG   SenderThread:8142 [sender.py:send():334] send: summary
+2024-06-26 17:22:39,467 INFO    SenderThread:8142 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-06-26 17:22:39,468 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:39,468 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-06-26 17:22:39,468 INFO    SenderThread:8142 [sender.py:transition_state():585] send defer: 6
+2024-06-26 17:22:39,468 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:39,468 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 6
+2024-06-26 17:22:39,468 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:39,468 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-06-26 17:22:39,471 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: status_report
+2024-06-26 17:22:39,750 INFO    SenderThread:8142 [sender.py:transition_state():585] send defer: 7
+2024-06-26 17:22:39,750 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:39,750 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 7
+2024-06-26 17:22:39,750 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:39,750 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-06-26 17:22:40,415 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/wandb-summary.json
+2024-06-26 17:22:40,415 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/config.yaml
+2024-06-26 17:22:40,415 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_created():275] file/dir created: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/code/_session_history.ipynb
+2024-06-26 17:22:40,416 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_created():275] file/dir created: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/code
+2024-06-26 17:22:40,460 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: poll_exit
+2024-06-26 17:22:41,389 INFO    SenderThread:8142 [sender.py:transition_state():585] send defer: 8
+2024-06-26 17:22:41,390 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: poll_exit
+2024-06-26 17:22:41,390 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:41,390 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 8
+2024-06-26 17:22:41,391 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:41,391 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-06-26 17:22:41,391 INFO    SenderThread:8142 [sender.py:transition_state():585] send defer: 9
+2024-06-26 17:22:41,391 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:41,391 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 9
+2024-06-26 17:22:41,392 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:41,392 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-06-26 17:22:41,392 INFO    SenderThread:8142 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-06-26 17:22:41,416 INFO    Thread-12 :8142 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/output.log
+2024-06-26 17:22:41,417 INFO    SenderThread:8142 [dir_watcher.py:finish():392] scan: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files
+2024-06-26 17:22:41,417 INFO    SenderThread:8142 [dir_watcher.py:finish():406] scan save: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/requirements.txt requirements.txt
+2024-06-26 17:22:41,418 INFO    SenderThread:8142 [dir_watcher.py:finish():406] scan save: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/diff.patch diff.patch
+2024-06-26 17:22:41,418 INFO    SenderThread:8142 [dir_watcher.py:finish():406] scan save: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/conda-environment.yaml conda-environment.yaml
+2024-06-26 17:22:41,418 INFO    SenderThread:8142 [dir_watcher.py:finish():406] scan save: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/wandb-metadata.json wandb-metadata.json
+2024-06-26 17:22:41,418 INFO    SenderThread:8142 [dir_watcher.py:finish():406] scan save: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/output.log output.log
+2024-06-26 17:22:41,424 INFO    SenderThread:8142 [dir_watcher.py:finish():406] scan save: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/config.yaml config.yaml
+2024-06-26 17:22:41,424 INFO    SenderThread:8142 [dir_watcher.py:finish():406] scan save: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/wandb-summary.json wandb-summary.json
+2024-06-26 17:22:41,424 INFO    SenderThread:8142 [dir_watcher.py:finish():406] scan save: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/code/_session_history.ipynb code/_session_history.ipynb
+2024-06-26 17:22:41,424 INFO    SenderThread:8142 [sender.py:transition_state():585] send defer: 10
+2024-06-26 17:22:41,426 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:41,426 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 10
+2024-06-26 17:22:41,427 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:41,427 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-06-26 17:22:41,427 INFO    SenderThread:8142 [file_pusher.py:finish():160] shutting down file pusher
+2024-06-26 17:22:41,460 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: poll_exit
+2024-06-26 17:22:41,461 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: poll_exit
+2024-06-26 17:22:42,132 INFO    Thread-20 :8142 [upload_job.py:push():143] Uploaded file /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/config.yaml
+2024-06-26 17:22:42,144 INFO    Thread-22 :8142 [upload_job.py:push():143] Uploaded file /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/code/_session_history.ipynb
+2024-06-26 17:22:42,145 INFO    Thread-17 :8142 [upload_job.py:push():143] Uploaded file /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/requirements.txt
+2024-06-26 17:22:42,242 INFO    Thread-18 :8142 [upload_job.py:push():143] Uploaded file /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/conda-environment.yaml
+2024-06-26 17:22:42,243 INFO    Thread-21 :8142 [upload_job.py:push():143] Uploaded file /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/wandb-summary.json
+2024-06-26 17:22:42,294 INFO    Thread-19 :8142 [upload_job.py:push():143] Uploaded file /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/files/output.log
+2024-06-26 17:22:42,461 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: poll_exit
+2024-06-26 17:22:42,461 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: poll_exit
+2024-06-26 17:22:42,494 INFO    Thread-11 :8142 [sender.py:transition_state():585] send defer: 11
+2024-06-26 17:22:42,495 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:42,495 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 11
+2024-06-26 17:22:42,495 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:42,495 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-06-26 17:22:42,495 INFO    SenderThread:8142 [file_pusher.py:join():165] waiting for file pusher
+2024-06-26 17:22:42,495 INFO    SenderThread:8142 [sender.py:transition_state():585] send defer: 12
+2024-06-26 17:22:42,495 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:42,495 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 12
+2024-06-26 17:22:42,495 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:42,496 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-06-26 17:22:42,833 INFO    SenderThread:8142 [sender.py:transition_state():585] send defer: 13
+2024-06-26 17:22:42,833 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:42,833 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 13
+2024-06-26 17:22:42,833 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:42,833 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-06-26 17:22:42,833 INFO    SenderThread:8142 [sender.py:transition_state():585] send defer: 14
+2024-06-26 17:22:42,833 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: defer
+2024-06-26 17:22:42,834 INFO    HandlerThread:8142 [handler.py:handle_request_defer():170] handle defer: 14
+2024-06-26 17:22:42,834 DEBUG   SenderThread:8142 [sender.py:send():334] send: final
+2024-06-26 17:22:42,834 DEBUG   SenderThread:8142 [sender.py:send():334] send: footer
+2024-06-26 17:22:42,834 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: defer
+2024-06-26 17:22:42,834 INFO    SenderThread:8142 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-06-26 17:22:42,835 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: poll_exit
+2024-06-26 17:22:42,835 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: poll_exit
+2024-06-26 17:22:42,836 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: server_info
+2024-06-26 17:22:42,836 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: get_summary
+2024-06-26 17:22:42,836 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: sampled_history
+2024-06-26 17:22:42,836 DEBUG   SenderThread:8142 [sender.py:send_request():361] send_request: server_info
+2024-06-26 17:22:43,248 DEBUG   HandlerThread:8142 [handler.py:handle_request():144] handle_request: shutdown
+2024-06-26 17:22:43,248 INFO    HandlerThread:8142 [handler.py:finish():841] shutting down handler
+2024-06-26 17:22:43,837 INFO    WriterThread:8142 [datastore.py:close():299] close: /home/lstew42/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_171554-cb2byn4m/run-cb2byn4m.wandb
+2024-06-26 17:22:44,246 INFO    SenderThread:8142 [sender.py:finish():1491] shutting down sender
+2024-06-26 17:22:44,246 INFO    SenderThread:8142 [file_pusher.py:finish():160] shutting down file pusher
+2024-06-26 17:22:44,247 INFO    SenderThread:8142 [file_pusher.py:join():165] waiting for file pusher

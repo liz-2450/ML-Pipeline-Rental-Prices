@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7b3eb2b054b44a65a35ae582ae0ab5d5/artifacts
+end_time: 1719450655940
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7b3eb2b054b44a65a35ae582ae0ab5d5
+run_name: blushing-owl-926
+run_uuid: 7b3eb2b054b44a65a35ae582ae0ab5d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719450586348
+status: 3
+tags: []
+user_id: lstew42

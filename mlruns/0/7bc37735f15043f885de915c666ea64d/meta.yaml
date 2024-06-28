@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7bc37735f15043f885de915c666ea64d/artifacts
+end_time: 1719452847588
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7bc37735f15043f885de915c666ea64d
+run_name: rogue-dog-681
+run_uuid: 7bc37735f15043f885de915c666ea64d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719452781638
+status: 4
+tags: []
+user_id: lstew42

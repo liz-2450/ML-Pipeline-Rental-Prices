@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6e38bc59938c43d0bf8f8401cc90f564/artifacts
+end_time: 1719452549131
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6e38bc59938c43d0bf8f8401cc90f564
+run_name: auspicious-boar-117
+run_uuid: 6e38bc59938c43d0bf8f8401cc90f564
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719452546423
+status: 4
+tags: []
+user_id: lstew42

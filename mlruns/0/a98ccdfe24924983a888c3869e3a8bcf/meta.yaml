@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a98ccdfe24924983a888c3869e3a8bcf/artifacts
+end_time: 1719533644890
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a98ccdfe24924983a888c3869e3a8bcf
+run_name: upset-moth-641
+run_uuid: a98ccdfe24924983a888c3869e3a8bcf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719533576821
+status: 3
+tags: []
+user_id: lstew42

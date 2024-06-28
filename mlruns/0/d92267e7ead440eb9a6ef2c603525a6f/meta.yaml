@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d92267e7ead440eb9a6ef2c603525a6f/artifacts
+end_time: 1719445346624
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d92267e7ead440eb9a6ef2c603525a6f
+run_name: abrasive-sow-856
+run_uuid: d92267e7ead440eb9a6ef2c603525a6f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719445307813
+status: 3
+tags: []
+user_id: lstew42

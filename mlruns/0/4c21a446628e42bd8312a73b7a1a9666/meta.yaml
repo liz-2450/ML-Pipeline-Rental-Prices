@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4c21a446628e42bd8312a73b7a1a9666/artifacts
+end_time: 1719445711766
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4c21a446628e42bd8312a73b7a1a9666
+run_name: nebulous-mule-885
+run_uuid: 4c21a446628e42bd8312a73b7a1a9666
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719445709329
+status: 3
+tags: []
+user_id: lstew42

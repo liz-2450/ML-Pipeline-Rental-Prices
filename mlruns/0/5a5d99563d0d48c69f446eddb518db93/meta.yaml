@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5a5d99563d0d48c69f446eddb518db93/artifacts
+end_time: 1719446264683
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5a5d99563d0d48c69f446eddb518db93
+run_name: thoughtful-bee-685
+run_uuid: 5a5d99563d0d48c69f446eddb518db93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719446226290
+status: 3
+tags: []
+user_id: lstew42

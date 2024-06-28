@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f48c1d020d0d44eeb3a0a325e5c61518/artifacts
+end_time: 1719443277641
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f48c1d020d0d44eeb3a0a325e5c61518
+run_name: respected-crane-201
+run_uuid: f48c1d020d0d44eeb3a0a325e5c61518
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719443221130
+status: 3
+tags: []
+user_id: lstew42

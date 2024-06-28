@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ca17729cf0074f11b34e50aa503482b0/artifacts
+end_time: 1719446109073
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ca17729cf0074f11b34e50aa503482b0
+run_name: fun-fawn-564
+run_uuid: ca17729cf0074f11b34e50aa503482b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719446106341
+status: 4
+tags: []
+user_id: lstew42

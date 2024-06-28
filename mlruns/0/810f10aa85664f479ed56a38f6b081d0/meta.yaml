@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/810f10aa85664f479ed56a38f6b081d0/artifacts
+end_time: 1719458693191
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 810f10aa85664f479ed56a38f6b081d0
+run_name: classy-stag-599
+run_uuid: 810f10aa85664f479ed56a38f6b081d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719458690694
+status: 4
+tags: []
+user_id: lstew42

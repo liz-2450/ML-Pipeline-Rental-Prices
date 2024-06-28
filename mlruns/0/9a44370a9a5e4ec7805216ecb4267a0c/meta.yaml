@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9a44370a9a5e4ec7805216ecb4267a0c/artifacts
+end_time: 1719443277805
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9a44370a9a5e4ec7805216ecb4267a0c
+run_name: adventurous-bass-197
+run_uuid: 9a44370a9a5e4ec7805216ecb4267a0c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719443165755
+status: 3
+tags: []
+user_id: lstew42

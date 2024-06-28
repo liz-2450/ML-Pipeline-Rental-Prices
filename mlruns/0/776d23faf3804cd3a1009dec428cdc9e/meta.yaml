@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lstew42/Project-Build-an-ML-Pipeline-Starter/mlruns/0/776d23faf3804cd3a1009dec428cdc9e/artifacts
+end_time: 1719455396440
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 776d23faf3804cd3a1009dec428cdc9e
+run_name: bittersweet-vole-545
+run_uuid: 776d23faf3804cd3a1009dec428cdc9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719455393974
+status: 4
+tags: []
+user_id: lstew42
